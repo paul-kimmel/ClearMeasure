@@ -5,10 +5,25 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CountNumbers\CountNumbers.csproj" />
+    <Compile Remove="CountNumbers.Tests\**" />
+    <Compile Remove="CountNumbers\**" />
+    <EmbeddedResource Remove="CountNumbers.Tests\**" />
+    <EmbeddedResource Remove="CountNumbers\**" />
+    <None Remove="CountNumbers.Tests\**" />
+    <None Remove="CountNumbers\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit.assert" Version="2.4.2" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="CountNumbers\CountNumbers.csproj" />
   </ItemGroup>
 
 </Project>
