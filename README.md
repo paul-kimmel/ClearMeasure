@@ -9,4 +9,4 @@
 - Demonstrates testing a guard condition in a state machine
 - How to redirect text output to a TextWriter
 
-![image](https://github.com/paul-kimmel/FifteenPuzzle/assets/105062328/b2e8c48d-5279-4812-bdf4-1a9c701d8c61)
+![Code Sample](https://github.com/paul-kimmel/ClearMeasure/assets/105062328/216a3511-13e2-4b69-8b13-7d7b46ec1911)
