@@ -1,4 +1,4 @@
-## A library that prints sequential numbers unless the numbers mtahc an specific index then a phrase is printed
+## A library that prints sequential numbers unless the numbers match an specific index then a phrase is printed
 
 ### Counting Blue Cars
 - XUnit Tests
